@@ -1,0 +1,14 @@
+{
+"Name": "pomf.co",
+"RequestType": "POST",
+"RequestURL": "https://pomf.co/upload.php",
+"FileFormName": "files[]",
+"Arguments": { },
+"ResponseType": "Text",
+"RegexList": [
+"\"url\":\"(?:.+\\\\/)?(.*?)\""
+],
+"URL": "https://a.pomf.co/$1,1$",
+"ThumbnailURL": "",
+"DeletionURL": ""
+}
